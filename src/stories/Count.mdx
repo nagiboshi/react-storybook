@@ -1,0 +1,12 @@
+import { Meta, Story, Canvas } from "@storybook/blocks";
+import * as CountStories from "./Count.stories";
+
+<Meta title="MDX/Counter" of={CountStories} />
+
+# Counter
+
+<p> Count component used to provide a count with ability to change it color. </p>
+
+<Canvas>
+  <Story of={CountStories.Primary} />
+</Canvas>
