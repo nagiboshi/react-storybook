@@ -1,3 +1,5 @@
+import React from "react";
+
 type CountProps = {
   countValue: number;
   color: string;
